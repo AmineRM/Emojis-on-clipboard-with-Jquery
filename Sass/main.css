@@ -1,0 +1,35 @@
+body {
+  background-color: #ECEEEF;
+  padding: 15%;
+  margin: 0 auto;
+}
+
+body #content .line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body #content .line .section {
+  width: 75px;
+  cursor: pointer;
+  height: 75px;
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+  background-color: #15B7F3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px;
+}
+
+body #content .line .section p {
+  font-size: 25px;
+}
+/*# sourceMappingURL=Main.css.map */

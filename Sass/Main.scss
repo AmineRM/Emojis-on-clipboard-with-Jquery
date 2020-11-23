@@ -1,0 +1,24 @@
+body{
+    background-color: #ECEEEF;
+    padding: 15%;
+    margin: 0 auto;
+    #content{
+        .line{
+            display: flex;
+            .section{
+                width: 75px;
+                cursor: pointer;
+                height: 75px;
+                clip-path: circle(50% at 50% 50%);
+                background-color: #15B7F3;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 30px;
+                p {
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}
