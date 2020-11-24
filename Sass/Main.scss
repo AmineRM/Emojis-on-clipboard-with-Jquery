@@ -1,7 +1,10 @@
 body{
     background-color: #ECEEEF;
-    padding: 15%;
+    padding: 10% 0;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     #content{
         .line{
             display: flex;
@@ -9,7 +12,7 @@ body{
                 width: 75px;
                 cursor: pointer;
                 height: 75px;
-                clip-path: circle(50% at 50% 50%);
+                border-radius: 50px;
                 background-color: #15B7F3;
                 display: flex;
                 justify-content: center;
