@@ -1,2 +1,1 @@
 # Emojis-on-clipboard
- 

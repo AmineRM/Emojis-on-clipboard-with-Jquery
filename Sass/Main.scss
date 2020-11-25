@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body{
     background-color: #ECEEEF;
-    padding: 10% 0;
+    padding: 2% 0;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -17,9 +19,20 @@ body{
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                margin: 30px;
+                margin: 25px;
                 p {
                     font-size: 25px;
+                }
+                .tooltip{
+                    position: absolute;
+                    margin: 0 0 7vh 7vh;
+                    background-color: #fff;
+                    padding: 5px 20px;
+                    display: none;
+                    border-radius: 20px;
+                    font-size: 18px;
+                    color: #313131;
+                    font-family: 'Poppins', sans-serif;
                 }
             }
         }
